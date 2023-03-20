@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+html .page-content,
+body .page-content {
+  display: grid;
+  grid-template-rows: 0.3fr 1fr;
+  grid-template-columns: 100%;
+}
+html .page-content .navbar,
+body .page-content .navbar {
+  display: flex;
+  flex-direction: row;
+}
+html .page-content .navbar div a,
+body .page-content .navbar div a {
+  text-decoration: none;
+  color: #6c6c6c;
+}/*# sourceMappingURL=style.css.map */
